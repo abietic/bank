@@ -6,7 +6,7 @@ saving::saving(string acntno,double balan):account(acntno,balan){}
 //------------------------------------------------------
 void saving::display()const
 {
-    std::cout<<"savings\n";
+    std::cout<<"savings "<<acntnumber<<" "<<balance<<std::endl;
 }
 //-----------------------------------------------------
 void saving::withdrawal(double amount)

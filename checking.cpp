@@ -5,7 +5,7 @@ checking::checking(string acntno,double balan) : account(acntno,balan),remittanc
 //----------------------------------------------
 void checking::display() const
 {
-    std::cout<<"checking\n";
+    std::cout<<"checking "<<acntnumber<<" "<<balance<<std::endl;
 }
 //----------------------------------------------
 void checking::withdrawal(double amount)

@@ -4,7 +4,7 @@
 #include"creataccount.h"
 #include<list>
 using namespace std;
-enum accounttype {checking,saving};
+enum accounttype {saving,checking};
 int main()
 {
     list<account*> aclist;
@@ -25,18 +25,23 @@ int main()
         if(s.substr(0,7) == "savings")
         {
             sp = create(saving);
-            aclist.push_back(createac(sp,s.substr(6,s.size()-8),balan));
+            aclist.push_back(createac(sp,s.substr(7,s.size()-7),balan));
             delete sp;
         }
         if(s.substr(0,8) == "checking")
         {
             sp = create(checking);
-            aclist.push_back(createac(sp,s.substr(7,s.size()-9),balan));
+            aclist.push_back(createac(sp,s.substr(8,s.size()-8),balan));
             delete sp;
         }
     }
-    ac = aclist.back();
-    ac->display();
+    while( !aclist.empty() )
+    {
+        ac = aclist.front();
+        ac->display();
+        aclist.pop_front();
+        delete ac;
+    }
     //for(string d;getline(inwithdrawal,d););
     cout << "Hello world!" << endl;
     return 0;
