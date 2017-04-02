@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1490859948 source:d:\bank\account.cpp
+	"account.h"
+
+1490875784 d:\bank\account.h
+	<string>
+
+1490859958 source:d:\bank\checking.cpp
+	"checking.h"
+	<iostream>
+
+1490859969 d:\bank\checking.h
+	"account.h"
+
+1491140151 source:d:\bank\creataccount.cpp
+	"creataccount.h"
+
+1490875508 source:d:\bank\creatchecking.cpp
+	"creatchecking.h"
+	"checking.h"
+
+1490875520 source:d:\bank\creatsaving.cpp
+	"creatsaving.h"
+	"saving.h"
+
+1491142831 source:d:\bank\main.cpp
+	<iostream>
+	<fstream>
+	"account.h"
+	"creataccount.h"
+	<list>
+
+1490859978 source:d:\bank\saving.cpp
+	"saving.h"
+	<iostream>
+
+1490859986 d:\bank\saving.h
+	"account.h"
+
+1491142926 d:\bank\creataccount.h
+	"account.h"
+
+1490868838 d:\bank\creatchecking.h
+	"creataccount.h"
+
+1490868838 d:\bank\creatsaving.h
+	"creataccount.h"
+
