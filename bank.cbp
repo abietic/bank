@@ -40,8 +40,12 @@
 		<Unit filename="creataccount.h" />
 		<Unit filename="creatchecking.cpp" />
 		<Unit filename="creatchecking.h" />
+		<Unit filename="creatcredit.cpp" />
+		<Unit filename="creatcredit.h" />
 		<Unit filename="creatsaving.cpp" />
 		<Unit filename="creatsaving.h" />
+		<Unit filename="credit.cpp" />
+		<Unit filename="credit.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="saving.cpp" />
 		<Unit filename="saving.h" />

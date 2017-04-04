@@ -6,6 +6,8 @@ creataccount* create(int a)
     {
     case 1 : return creataccountchecking();
     case 0 : return creataccountsaving();
+    case 2 : return creataccountcredit();
+    default : return 0;
     }
 }
 //------------------------------------------------------------------

@@ -14,6 +14,10 @@ public:
     //------------------------------------------------------
     virtual void withdrawal(double amount) = 0;
     //------------------------------------------------------
+    virtual void getmoney(account& mount) = 0;
+    //------------------------------------------------------
+    virtual void getpass(string pass){}
+    //------------------------------------------------------
     double getbalance() const;
     //-------------------------------------------------------
     void deposit(double amount);

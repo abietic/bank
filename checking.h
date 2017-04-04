@@ -13,5 +13,6 @@ public:
     void withdrawal(double amount);
     void display() const;
     void setremit(REMIT re);
+    void getmoney(account& mount);
 };
 #endif // CHECKING__H
